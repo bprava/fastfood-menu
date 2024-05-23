@@ -1,0 +1,71 @@
+h1{
+    color: indianred;
+}
+.navbar{
+    background-color:rgb(235, 148, 148);
+    border-radius: 35px;}    
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 15px 25px;
+    padding-top: 3px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+
+}
+.navbar li a:hover{
+    background-color: blue;}
+    h2{
+        color: red;
+    }
+   .items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+
+   }
+   .item img{
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+   }
+   .item img:hover{
+    transform: scale(1.04);
+   }
+   .item h4{
+    padding: 5px;
+    text-align: center;
+    color: black;
+   }
+   .item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+
+    margin: 0 auto;
+    transition: 0.2s all;
+   }
+   .item button:hover{
+    transform: scale(1.08);
+   }
+   h3{
+    background-color: burlywood;
+    color: brown;
+    
+   }
