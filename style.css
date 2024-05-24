@@ -1,6 +1,4 @@
-h1{
-    color: indianred;
-}
+
 .navbar{
     background-color:rgb(235, 148, 148);
     border-radius: 35px;}    
@@ -22,6 +20,38 @@ h1{
 }
 .navbar li a:hover{
     background-color: blue;}
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family:'poppins',sans-serif;
+        
+    }
+    body{
+        background:beige ;
+    }
+    .image{
+        width: 70%;
+        height: 150%;
+        display: flex;
+        margin: 50px auto;
+       
+        background-color:beige;
+    }
+    .image img{
+        height: 600px;
+        width: 600px;
+        border-radius: 60%;
+        border: 10px solid #fff;
+        float: left;
+
+    }
+    .text{
+        color: rgb(255, 0, 0);
+    }
+    .text h1{
+        font-size: 50px;
+    }
     h2{
         color: red;
     }
